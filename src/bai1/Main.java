@@ -17,7 +17,7 @@ public class Main {
         }
         System.out.println("------sau thay doi---------");
         for (int i = 0; i < shapes.length; i++) {
-            shapes[i].resize(1);
+            shapes[i].resize(Math.random()*100);
             System.out.println(shapes[i]);
         }
     }

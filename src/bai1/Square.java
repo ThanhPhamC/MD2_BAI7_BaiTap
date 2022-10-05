@@ -30,6 +30,6 @@ public class Square extends Rectangle implements Resizeable {
 
     @Override
     public void resize(double percent) {
-        setSize(getSize()*Math.random() * 100);
+        setSize(getSize()*percent);
     }
 }
